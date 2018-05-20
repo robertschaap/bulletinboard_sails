@@ -16,6 +16,11 @@
 
 module.exports.views = {
 
+  getRenderFn: function() {
+    const cons = require('consolidate');
+    return cons.pug;
+  },
+
   /***************************************************************************
   *                                                                          *
   * Extension to use for your views. When calling `res.view()` in an action, *
@@ -25,7 +30,7 @@ module.exports.views = {
   *                                                                          *
   ***************************************************************************/
 
-  // extension: 'ejs',
+  extension: 'pug',
 
   /***************************************************************************
   *                                                                          *
