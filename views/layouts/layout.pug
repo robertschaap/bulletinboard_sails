@@ -1,6 +1,16 @@
 doctype html
-html
+html(lang="en")
+
   head
-    link(rel="stylesheet" href="/styles/importer.css")
+    block head
+      meta(charset="utf-8")
+      meta(name="author" content="Robert Schaap")
+      meta(name="viewport", content="width=device-width, initial-scale=1")
+      title Bulletin Board: #{pagetitle}
+      link(href="/styles/normalize.css", rel="stylesheet", type="text/css")
+      link(href="/styles/stylesheet.css", rel="stylesheet", type="text/css")
+      link(rel="stylesheet" href="/styles/importer.css")
+      link(rel="icon" type="image/png" href="favicon.ico" sizes="32x32")
+
   body
     block body
