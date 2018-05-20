@@ -2,7 +2,7 @@
   "name": "bulletin-board-sails",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "a bulletin board made with sails js",
   "keywords": [],
   "dependencies": {
     "sails": "^1.0.2",
@@ -27,7 +27,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/robertschaap/bulletin-board-sails.git"
+    "url": "git://github.com/robertschaap/bulletinboard_sails.git"
   },
   "author": "robertschaap",
   "license": "",
